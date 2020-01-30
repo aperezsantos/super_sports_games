@@ -4,9 +4,9 @@
 # Your code here for calculating the standard deviation
 
   #add all integers:
-
-    added = @ages.sum
-    p added
+    sum = @ages.sum
+    
+    p sum
 
       #using a method
         # def sum
@@ -14,6 +14,23 @@
         # end
         #
         # p sum
+
+  # number of integers
+    length = @ages.length
+
+    p length
+
+  # find the average
+    average = sum.to_f / length
+
+    p average
+
+      #using a method
+        # def average
+        #   @ages.sum.to_f / @ages.length
+        # end
+        # p average
+
 
 # When you find the standard deviation, print it out
 

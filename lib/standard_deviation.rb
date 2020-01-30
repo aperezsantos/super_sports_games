@@ -37,8 +37,6 @@
       (integer - average).round(2)
       end
 
-    p subtracted
-
   # square each number
     squared = subtracted.map do |number|
       (number ** 2).round(2)

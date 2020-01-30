@@ -46,12 +46,11 @@
 
     p squared
 
+  # add, divide, square root
+    squared_sum = squared.sum
+    square_root = Math.sqrt(squared_sum / length).round(2)
+
+    p square_root
+
 # When you find the standard deviation, print it out
-
-
-
-
-
-
-
-# require "pry"; binding.pry
+p "The standard deviation is #{square_root}"

@@ -39,6 +39,13 @@
 
     p subtracted
 
+  # square each number
+    squared = subtracted.map do |number|
+      (number ** 2).round(2)
+    end
+
+    p squared
+
 # When you find the standard deviation, print it out
 
 
